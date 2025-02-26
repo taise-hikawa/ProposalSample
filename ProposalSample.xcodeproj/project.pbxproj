@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D5FA70752D6EB5C3002BE5B7 /* LocalPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D5FA70742D6EB5C3002BE5B7 /* LocalPackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D5FA70442D6EB366002BE5B7 /* ProposalSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProposalSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D5FA70722D6EB4DC002BE5B7 /* Exceptions for "ProposalSample" folder in "ProposalSample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LocalPackage,
+			);
+			target = D5FA70432D6EB366002BE5B7 /* ProposalSample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D5FA70462D6EB366002BE5B7 /* ProposalSample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D5FA70722D6EB4DC002BE5B7 /* Exceptions for "ProposalSample" folder in "ProposalSample" target */,
+			);
 			path = ProposalSample;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FA70752D6EB5C3002BE5B7 /* LocalPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				D5FA70462D6EB366002BE5B7 /* ProposalSample */,
+				D5FA70732D6EB5C3002BE5B7 /* Frameworks */,
 				D5FA70452D6EB366002BE5B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +62,13 @@
 				D5FA70442D6EB366002BE5B7 /* ProposalSample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FA70732D6EB5C3002BE5B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +91,7 @@
 			);
 			name = ProposalSample;
 			packageProductDependencies = (
+				D5FA70742D6EB5C3002BE5B7 /* LocalPackage */,
 			);
 			productName = ProposalSample;
 			productReference = D5FA70442D6EB366002BE5B7 /* ProposalSample.app */;
@@ -324,6 +351,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5FA70742D6EB5C3002BE5B7 /* LocalPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5FA703C2D6EB366002BE5B7 /* Project object */;
 }
