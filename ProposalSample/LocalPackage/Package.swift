@@ -56,7 +56,7 @@ let package = Package(
                 .globalConcurrency,
                 .regionBasedIsolation,
                 .regionBasedIsolation,
-//                .globalActorIsolatedTypesUsability
+                .globalActorIsolatedTypesUsability
             ])
     ]
 )
